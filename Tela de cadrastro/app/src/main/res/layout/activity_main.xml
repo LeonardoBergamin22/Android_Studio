@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TelaDeCadrastro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/cadrastro"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:scrollbarSize="4dp"
+            android:text="Cadrastro Pessoal"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/nomecadrastro"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/sobrenomecadrastro"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="Sobrenome"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/enderecocadrastro"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Endereço"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/telefonecadrastro"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:hint="Telefone"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_cadrastar"
+            android:layout_width="373dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="18sp"
+            android:layout_marginLeft="18sp"
+            android:backgroundTint="#B514D1"
+            android:text="Cadrastrar"
+            android:textColorLink="#673AB7"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/nomeview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAFAFA"
+            android:backgroundTint="#FFFFFF"
+            android:text="Nome"
+            android:textAlignment="center"
+            android:textColor="#5B00FD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/sobrenomeview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1sp"
+            android:text="Sobrenome"
+            android:textAlignment="center"
+            android:textColor="#5C00FF"
+            android:textColorHint="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/enderecoview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1sp"
+            android:text="Endereço"
+            android:textAlignment="center"
+            android:textColor="#5B00FB"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/telefoneview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1sp"
+            android:text="Telefone"
+            android:textAlignment="center"
+            android:textColor="#5C00FF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
